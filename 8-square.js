@@ -5,9 +5,9 @@ num = parseInt(arg);
 if (!isNaN(num)) {
     let a = 0;
     while (a < num) {
-        let char = "X";
-        for (let i = 1; i < num; i++) {
-            char += char;
+        let char = "";
+        for (let i = 0; i < num; i++) {
+            char += "X";
         }
         console.log(char);
         a++;
